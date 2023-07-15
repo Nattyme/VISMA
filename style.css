@@ -82,11 +82,37 @@ body {
 }
 
 .header-bottom-left {
+	position: absolute;
+	top: 180px;
+	left: 312px;
 	border: 2px solid yellow;
-	margin-left: 312px;
 	width: 526px;
 	height: 336px;
+}
 
+.header-bottom-left .header-title{
+	font-family: "PT Sans", sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 70px;
+}
+
+.header-bottom-left .title-tip {
+	width: 322px;
+	font-family: "PT Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22.4px;
+	color: #ffffff;
+}
+
+.header-bottom-left .company-about {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22.4px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
 }
 
 .header-bottom-left .header-title {
@@ -104,7 +130,6 @@ body {
 	gap: 24px;  
 	margin: 0;
 	padding: 0;
-	border: 1px solid red;
 	margin-left: 972px;
 	list-style: none;
 }
@@ -125,32 +150,30 @@ body {
 }
 
 .main-service-list  .service p {
+	margin: 0;
 	font-size: 19px;
 	line-height: 26.6px;
+	border: 1px solid white;
 }
 
 .main-service-list .service-1 {
 	grid-column: 1/2;
 	grid-row: 1/2;
-	border: 1px solid white;
 }
 
 .main-service-list .service-2 {
 	grid-column: 2/3;
 	grid-row: 1/2;
-	border: 1px solid white;
 }
 
 .main-service-list .service-3 {
 	grid-column: 1/2;
 	grid-row: 2/3;
-	border: 1px solid white;
 }
 
 .main-service-list .service-4 {
 	grid-column: 2/3;
 	grid-row: 2/3;
-	border: 1px solid white;
 }
 
 
