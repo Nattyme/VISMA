@@ -13,7 +13,6 @@ body {
 
 .page-header {
 	height: 750px;
-	border: 1px solid red;
 }
 
 .header-top {
@@ -24,8 +23,6 @@ body {
 	align-items: center;
 	justify-content: space-between;
 	margin-left: 312px;
-	border: 1px solid green;
-	
 }
 
 .header-logo {
@@ -43,7 +40,6 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 30px;
-	border: 1px solid red;
 }
 
 .main-nav li:last-child {
@@ -84,7 +80,6 @@ body {
 	position: absolute;
 	top: 180px;
 	left: 312px;
-	border: 2px solid yellow;
 	width: 526px;
 	height: 336px;
 }
@@ -150,7 +145,6 @@ body {
 	margin: 0;
 	font-size: 19px;
 	line-height: 26.6px;
-	border: 1px solid white;
 }
 
 .main-service-list .service-1 {
@@ -190,12 +184,10 @@ body {
 	width: 1296px;
 	height: 717px;
 	margin-left: 312px;
-	border: 1px solid violet;
 	margin-top: 150px;
 }
 
 .service-left-part {
-	border: 1px solid red;
 	width: 306px;
 	height: 333px;
 	padding-top: 118px;
@@ -268,27 +260,32 @@ body {
 /* main-service ends */
 
 .company-about-full {
+	margin-top: 118px;
 	position: relative;
 	height: 876px;
 	background-color: rgba(61, 52, 139, 0.05);
 }
 
 .company-about-full-left {
+	padding-top: 100px;
 	width: 636px;
 	margin-left: 312px;
-	border: 1px solid red;
+}
+
+.company-about-full-left h2 {
+	padding: 0;
+	margin: 0;
 }
 
 .company-about-full-right {
 	position: absolute;
 	display: grid;
-	top: 0;
-	right: 50px;
+	top: 100px;
+	right: 312px;
 	width: 526;
 	grid-template-columns: 526px;
 	grid-template-rows: 350px 170px;
 	gap: 38px;
-	border: 1px solid green;
 }
 
 .video-link {
