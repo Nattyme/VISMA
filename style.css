@@ -185,17 +185,26 @@ body {
 
 /* header ends */
 .main-service {
+	position: relative;
+	padding-bottom: 118px;
 	width: 1296px;
 	height: 717px;
 	margin-left: 312px;
 	border: 1px solid violet;
-	padding-top: 150px;
+	margin-top: 150px;
 }
 
 .service-left-part {
 	border: 1px solid red;
 	width: 306px;
 	height: 333px;
+	padding-top: 118px;
+}
+
+.service-right-part {
+	position: absolute;
+	top: 118px;
+	right: 0;
 }
 
 .main-service h2 {
@@ -255,5 +264,3 @@ body {
 	text-decoration: none;
 	color: #ffffff;
 }
-
-.
