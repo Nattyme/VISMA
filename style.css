@@ -33,7 +33,7 @@ body {
 	height: 30px;
 }
 
-.main-nav {
+.condition-list {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -128,10 +128,8 @@ body {
 	grid-template-columns: 306px 306px;
 	grid-template-rows: 250px 250px;
 	gap: 24px;  
-	margin: 0;
-	padding: 0;
 	margin-left: 972px;
-	list-style: none;
+
 }
 
 .main-service-list  .service {
@@ -187,7 +185,18 @@ body {
 
 
 /* header ends */
-
 .main-service {
-	margin-top: 150px;
+	width: 1296px;
+	height: 717px;
+	margin-left: 312px;
+	border: 1px solid violet;
+	padding-top: 150px;
+}
+
+.main-service h2 {
+	margin: 0;
+}
+
+.price-and-conditions a {
+	text-decoration: underline dotted;
 }
