@@ -11,11 +11,6 @@ body {
 	background-color: #ffffff;
 }
 
-.container {
-	width: 1296px;
-	margin: 150px auto;
-}
-
 .page-header {
 	height: 750px;
 	border: 1px solid red;
@@ -67,11 +62,15 @@ body {
 	color: #000000;
 }
 
-.header-search {
+.search-area {
+	width: 150px;
+	border: 1px solid transparent;
+	border-bottom-color: rgba(51, 51, 51, 0.2);
 }
 
 
 .header-bottom {
+	position: relative;
 	height: 750px;
 	background: url("img/Rectangle 23.png") no-repeat 50% 50%;
 	background-size: cover;
@@ -80,4 +79,92 @@ body {
 
 .header-bottom .header-title {
 	margin: 0;
+}
+
+.header-bottom-left {
+	border: 2px solid yellow;
+	margin-left: 312px;
+	width: 526px;
+	height: 336px;
+
+}
+
+.header-bottom-left .header-title {
+	padding: 0;
+	margin: 0;
+}
+
+.main-service-list {
+	position: absolute;
+	display: grid;
+	top: 113px;
+	right: 312px;
+	grid-template-columns: 306px 306px;
+	grid-template-rows: 250px 250px;
+	gap: 24px;  
+	margin: 0;
+	padding: 0;
+	border: 1px solid red;
+	margin-left: 972px;
+	list-style: none;
+}
+
+.main-service-list  .service {
+	padding: 30px 35px;
+	border-radius: 20px;
+	font-weight: 700;
+	color: #ffffff;
+	background-color: #5db7de;
+}
+
+.main-service-list  .service h3 {
+	font-family: "PT Sans", sans-serif;
+	font-size: 13px;
+	line-height: 18.2px;
+	text-transform: uppercase;
+}
+
+.main-service-list  .service p {
+	font-size: 19px;
+	line-height: 26.6px;
+}
+
+.main-service-list .service-1 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	border: 1px solid white;
+}
+
+.main-service-list .service-2 {
+	grid-column: 2/3;
+	grid-row: 1/2;
+	border: 1px solid white;
+}
+
+.main-service-list .service-3 {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	border: 1px solid white;
+}
+
+.main-service-list .service-4 {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	border: 1px solid white;
+}
+
+
+
+.main-service-list li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+
+
+/* header ends */
+
+.main-service {
+	margin-top: 150px;
 }
