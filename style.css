@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 1920px;
+	font-family: "PT Sans", sans-serif;
+	line-height: 23px;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+.container {
+	width: 1296px;
+	margin: 150px auto;
+}
+
+.page-header {
+	height: 750px;
+	border: 1px solid red;
+}
+
+.header-top {
+	height: 110px;
+	width: 1296px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 312px;
+	padding: 40px 0;
+	border: 1px solid green;
+}
+
+.header-logo {
+	width: 180px;
+	height: 30px;
+}
+
+.main-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid blue;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.main-nav li:last-child {
+	margin-right: 0;
+}
+
+.main-nav li a {
+	text-decoration: none;
+	font-family: "PT Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	color: #000000;
+}
+
+.header-search {
+}
+
+
+.header-bottom {
+	height: 750px;
+	background: url("img/Rectangle 23.png") no-repeat 50% 50%;
+	background-size: cover;
+	color: #ffffff;
+}
+
+.header-bottom .header-title {
+	margin: 0;
+}
