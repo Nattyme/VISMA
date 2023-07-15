@@ -264,3 +264,46 @@ body {
 	text-decoration: none;
 	color: #ffffff;
 }
+
+/* main-service ends */
+
+.company-about-full {
+	position: relative;
+	height: 876px;
+	background-color: rgba(61, 52, 139, 0.05);
+}
+
+.company-about-full-left {
+	width: 636px;
+	margin-left: 312px;
+	border: 1px solid red;
+}
+
+.company-about-full-right {
+	position: absolute;
+	display: grid;
+	top: 0;
+	right: 50px;
+	width: 526;
+	grid-template-columns: 526px;
+	grid-template-rows: 350px 170px;
+	gap: 38px;
+	border: 1px solid green;
+}
+
+.video-link {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.service-canculator {
+	grid-column: 1/2;
+	grid-row: 2/3;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 18.2px;
+	border-radius: 20px;
+	background-color: #5db7de;
+	text-decoration: none;
+	color: #ffffff;
+}
