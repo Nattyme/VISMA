@@ -306,6 +306,12 @@ body {
 }
 
 /* company-about ends */
+.company-news{
+	position: relative;
+	margin-top: 150px;
+}
+
+
 .company-news h2 {
 	margin: 0;
 	padding: 0;
@@ -313,6 +319,8 @@ body {
 
 
 .news-list {
+	position: absolute;
+	top: 116px;
 	display: grid;
 	left: 312px;
 	width: 1296px;
@@ -340,6 +348,41 @@ body {
 .news-4 {
 	grid-column: 4/5;
 	grid-row: 1/2;
+}
+
+
+.news-list li a {
+	text-decoration: 0;
+	color: #333333;
+}
+
+.news-list .news-date {
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 18px;
+	font-family: "PT Sans", sans-serif;
+}
+
+.news-list .news-title {
+	margin: 0;
+	padding: 0;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 26.6px;
+	font-family: "PT Sans", sans-serif;
+}
+
+.news-list .news-discript {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+.news-list .news-date, 
+.news-list .news-title,
+.news-list .news-discript {
+	margin-left: 15px;
 }
 
 
