@@ -396,10 +396,9 @@ body {
 }
 /* news ends */
 .page-footer {
-padding: 150px 0 0 0;
+ padding: 150px 0 0 0;
  height: 754px;
  width: 1920px;
- border: 1px solid blue;
 }
 
 .page-footer .footer-top p {
@@ -412,7 +411,23 @@ padding: 150px 0 0 0;
 	padding: 0;
 }
 
+.footer-top {
+	display: grid;
+	height: 120px;
+	width: 1920px;
+	grid-template-columns: 304px auto 100px auto 379px;
+	grid-template-rows: 120px;
+	background-color: rgba(61, 52, 139, 0.85);
+	color: #ffffff;
+	border: 1px solid red;
+}
 
+.footer-middle {
+	height: 484px;
+	width: 1920px;
+	background-color: #3d348b;
+	color: #ffffff;
+}
 
 
 
