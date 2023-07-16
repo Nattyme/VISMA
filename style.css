@@ -306,9 +306,10 @@ body {
 }
 
 /* company-about ends */
-.company-news{
-	position: relative;
+.company-news {
 	margin-top: 150px;
+	height: 590px;
+	border: 1px solid orange;
 }
 
 
@@ -317,12 +318,21 @@ body {
 	padding: 0;
 }
 
+.news-container {
+	position: relative;
+	margin-top: 116px;
+	height: 371px;
+	width: 1296px;
+	margin-left: 312px;
+	border: 1px solid green;
+}
+
 
 .news-list {
 	position: absolute;
-	top: 116px;
 	display: grid;
-	left: 312px;
+	top: 0;
+	left: 0;
 	width: 1296px;
 	grid-template-columns: 306px 306px 306px 306px;
 	grid-template-rows: auto; 
@@ -383,6 +393,23 @@ body {
 .news-list .news-title,
 .news-list .news-discript {
 	margin-left: 15px;
+}
+/* news ends */
+.page-footer {
+padding: 150px 0 0 0;
+ height: 754px;
+ width: 1920px;
+ border: 1px solid blue;
+}
+
+.page-footer .footer-top p {
+	margin: 0;
+	padding: 0;
+}
+
+.page-footer .footer-middle ul {
+	margin: 0;
+	padding: 0;
 }
 
 
