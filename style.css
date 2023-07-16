@@ -414,13 +414,17 @@ body {
 .footer-top {
 	display: grid;
 	height: 120px;
-	grid-template-columns: 304px auto 100px auto 187px 112px;
+	align-items: center;
+	grid-template-columns: 304px 272px 100px 272px 187px 112px;
 	grid-template-rows: 120px;
-	text-align: left;
 	background-color: rgba(61, 52, 139, 0.85);
 	color: #ffffff;
 	border: 1px solid red;
-	padding-left: 312px;
+	padding: 25px 312px;
+	font-weight: 700;
+	font-size: 16px;
+	font-family: "PT Sans", sans-serif;
+	line-height: 22.4px;
 }
 
 .adress-info {
@@ -449,6 +453,54 @@ body {
 	background-color: #3d348b;
 	color: #ffffff;
 }
+
+.legal-info-blocks {
+	display: grid;
+	grid-template-columns: 306px 306px 306px 306px;
+	grid-template-rows: 140px;
+	gap: 30px;
+	list-style: none;
+}
+
+.company-legal-info {
+	margin-left: 312px;
+}
+
+.company-legal-info li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.legal-info-blocks li ul {
+	list-style: none;
+}
+
+.legal-info-1 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.legal-info-2 {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.legal-info-3 {
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+
+.legal-info-4 {
+	grid-column: 4/5;
+	grid-row: 1/2;
+}
+
+.copyright {
+	padding-top: 150px;
+}
+
+
+
 
 
 
