@@ -454,16 +454,20 @@ body {
 	color: #ffffff;
 }
 
-.legal-info-blocks {
+.company-legal-info {
 	display: grid;
 	grid-template-columns: 306px 306px 306px 306px;
 	grid-template-rows: 276px;
 	gap: 30px;
 	list-style: none;
+	margin-left: 312px;
 }
 
-.company-legal-info {
-	margin-left: 312px;
+.company-legal-info ul {
+	line-height: 19.6px;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: "PT Sans", sans-serif;
 }
 
 .company-legal-info li a {
@@ -471,7 +475,7 @@ body {
 	color: #ffffff;
 }
 
-.legal-info-blocks li ul {
+.company-legal-info ul {
 	list-style: none;
 }
 
