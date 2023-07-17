@@ -415,7 +415,7 @@ body {
 	display: grid;
 	height: 120px;
 	align-items: center;
-	grid-template-columns: 304px 272px 100px 272px 187px 112px;
+	grid-template-columns: 304px 272px 100px 272px 187px 162px;
 	grid-template-rows: 120px;
 	background-color: rgba(61, 52, 139, 0.85);
 	color: #ffffff;
@@ -424,7 +424,7 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	font-family: "PT Sans", sans-serif;
-	line-height: 22.4px;
+	line-height: 23px;
 }
 
 .adress-info {
@@ -457,7 +457,7 @@ body {
 .legal-info-blocks {
 	display: grid;
 	grid-template-columns: 306px 306px 306px 306px;
-	grid-template-rows: 140px;
+	grid-template-rows: 276px;
 	gap: 30px;
 	list-style: none;
 }
@@ -474,6 +474,14 @@ body {
 .legal-info-blocks li ul {
 	list-style: none;
 }
+
+.legal-info-blocks li ul li {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	font-family: "PT Sans", sans-serif;
+}
+
 
 .legal-info-1 {
 	grid-column: 1/2;
