@@ -1,0 +1,15 @@
+//Base
+body {
+    font-family: $font-main;
+    font-size: 14px;
+    font-weight: 400;
+    color: $white;
+}
+
+
+// Grid
+.container {
+    width: 1326px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
